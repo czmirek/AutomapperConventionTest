@@ -21,7 +21,7 @@
                 return pm.SourceMember.Name == pm.DestinationMember.Name.Underscore().ToUpperInvariant();
             }, (pm, o) =>
             {
-                //do nothing
+                //do nothing?
             });
             /*
             CreateMap<bool, int>().ConvertUsing((bl, nt) => bl ? 1 : 0);

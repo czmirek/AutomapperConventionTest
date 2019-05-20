@@ -9,20 +9,16 @@
         public DtoToBusinessProfile()
         {
          
+            /*
             AddConditionalObjectMapper()
                 .Where((s, d) =>
                 {
                     return s.Name == d.Name.Substring(2).Pascalize();
                 });
 
-            ForAllPropertyMaps(pm =>
-            {
-                //breakpoint here
-                return pm.SourceMember.Name == pm.DestinationMember.Name.Underscore().ToUpperInvariant();
-            }, (pm, o) =>
-            {
-                //do nothing
-            });
+
+            SourceMemberNamingConvention = new LowerUnderscoreNamingConvention();
+            DestinationMemberNamingConvention = new PascalCaseNamingConvention();*/
 
             /*
             CreateMap<int, bool>().ConvertUsing(val => val == 0 ? false : true);
