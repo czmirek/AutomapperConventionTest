@@ -1,0 +1,1 @@
+This project is a working example of how to configure AutoMapper to map between uppercase underscore types (T_ACCOUNT) and pascalized types (Account).
